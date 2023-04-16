@@ -1,2 +1,3 @@
-# BubblesortAssembler
-Bubblesort in Assembler.
+# Bubblesort in Assembler.
+
+I wanted to write bubble sort in Assembler but it was too difficult to do in one go. At first, I wrote it in Java, it was a bit of palava, but it was easy enough to write and easy to get right. Then, I translated the Java into C which was easy for me because they look much the same. Once I had the C working, I started to transform it to look more and more like Assembler. While still being valid C. For example, I got rid of all the for loops by replacing them with goto statements. In the end, the C code looked nothing like C it looked like Assembler but it still passed all of its tests. Finally, I copied the C into my assembler program and made a few minor adjustments. The Assembler ran perfectly after just two compiles.
